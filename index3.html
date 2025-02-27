@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarjeta de Producto</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f3f3f3;
+        }
+        .card {
+            width: 250px;
+            border-radius: 10px;
+            overflow: hidden;
+            background: white;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            transition: transform 0.3s;
+        }
+        .card:hover {
+            transform: scale(1.05);
+        }
+        .card img {
+            width: 100%;
+        }
+        .card .info {
+            padding: 15px;
+        }
+        .card h2 {
+            font-size: 18px;
+            margin: 10px 0;
+        }
+        .card p {
+            color: gray;
+        }
+        .card button {
+            margin-top: 10px;
+            padding: 10px;
+            border: none;
+            background: #ff6b6b;
+            color: white;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <img src="https://source.unsplash.com/random/250x200?product" alt="Producto">
+        <div class="info">
+            <h2>Producto Especial</h2>
+            <p>$19.99</p>
+            <button>Comprar</button>
+        </div>
+    </div>
+</body>
+</html>
