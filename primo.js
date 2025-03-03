@@ -16,5 +16,5 @@ function primosEnRango(inicio, fin) {
     return primos;
 }
 
-// Ejemplo de usoooo
+// Ejemplo de usooooo
 console.log(primosEnRango(1, 50)); 
