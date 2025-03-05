@@ -10,6 +10,6 @@ function factorial(n) {
 }
 
 // Ejemplo de uso
-console.log(factorial(5)); // 120
+console.log(factorial(2)); // 2
 console.log(factorial(0)); // 1
 console.log(factorial(7)); // 5040
