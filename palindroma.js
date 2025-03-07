@@ -8,4 +8,4 @@ function esPalindromo(palabra) {
 // Ejemplo de uso
 console.log(esPalindromo("reconocer")); // true
 console.log(esPalindromo("hola")); // false
-console.log(esPalindromo("Anitaa lava la tina")); // true
+console.log(esPalindromo("Anita lava la tina")); // true
