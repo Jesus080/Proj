@@ -15,5 +15,5 @@ function encontrarMaximo(arr) {
 }
 
 // Ejemplo de uso
-let numeros = [12, 45, 67, 89, 23, 90, 34, 40, 100];
+let numeros = [12, 45, 67, 89, 23, 90, 34, 40, 67];
 console.log("El número más grande es:", encontrarMaximo(numeros));
