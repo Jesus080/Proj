@@ -3,7 +3,7 @@ function encontrarMaximo(arr) {
         return "El arreglo está vacío";
     }
 
-    let maximo = arr[0]; // Suponemos que el primer elemento es el mayor
+    let maximo = arr[0]; // Suponemos que el rimer elemento es el 
 
     for (let i = 1; i < arr.length; i++) {
         if (arr[i] > maximo) {
